@@ -20,3 +20,11 @@ variable "cidr_public" {
 variable "cidr_private" {
   description = "this is for CIDR private subnet"
 }
+
+variable "cidr_public1" {
+  description = "this is for CIDR public subnet"
+}
+
+variable "cidr_private1" {
+  description = "this is for CIDR private subnet"
+}

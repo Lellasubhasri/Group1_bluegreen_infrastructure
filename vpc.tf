@@ -9,3 +9,7 @@ resource "aws_vpc" "blue-green-deploy" {
 resource "aws_eip" "nat_eip" {
   vpc = true
 }
+
+resource "aws_eip" "nat_eip1" {
+  vpc = true
+}
